@@ -1,7 +1,5 @@
-To set up the Unity project with git, first install git-lfs at https://git-lfs.com/. Then, create a Unity Universal 3D project in your desired folder.  
-Within the project's base directory, run the commands:
+To set up the Unity project with git, first install git-lfs at https://git-lfs.com/. You may also already have it installed if you are using git for Windows. Then, in Unity Hub, go to Projects, hit 'Add', then 'Add from repository'. Setup a GitHub Personal Access Token and select our repo. It will then create a new project from our repo. From the project's folder run the command in terminal:
 
 `git lfs install`  
-`git clone https://github.com/ddantheman/CS335-FinalProject.git`
 
-If it says you have 10000+ changes, something probably went wrong. Make sure the repository directory matches your project directory when adding the remote branch, and that you chose a Universal 3D project on Unity version 6.4.
+You should now be all set to work on the project and use git lfs!
