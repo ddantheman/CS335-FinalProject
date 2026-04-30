@@ -9,8 +9,10 @@ public class OpenGUI : MonoBehaviour, IInteractable
 
     public void Interact()
     {
+        Debug.Log("Opened GUI");
+
         // TODO: Disable player movement
-        
+
         // Change the active camera to the GUI camera
         GUICam.SetActive(true);
         playerCam.SetActive(false);
